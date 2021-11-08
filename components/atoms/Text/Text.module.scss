@@ -1,0 +1,23 @@
+@use "../../abstracts/" as *;
+
+@each $size, $value in $fontSizes {
+    .text--size-#{$size} {
+        font-size: $value;
+    }
+}
+
+@each $color, $value in $colors {
+    .text--color-#{$color} {
+        color: $value;
+    }
+}
+
+.text--is-italic {
+    font-style: italic;
+}
+.text--is-bold {
+    font-weight: var(--font-weight-bold);
+}
+.text--is-thin {
+    font-weight: var(--font-weight-thin);
+}

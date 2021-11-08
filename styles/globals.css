@@ -8,4 +8,14 @@
   --color-primary: #00bcd4;
   --color-secondary: #cf14e0;
   --color-white: #fff;
+  --fontSizes--xs: 0.75rem;
+  --fontSizes--sm: 0.875rem;
+  --fontSizes--md: 1rem;
+  --fontSizes--lg: 1.125rem;
+  --fontSizes--xl: 1.25rem;
+  --fontSizes--2xl: 1.5rem;
+  --fontSizes--3xl: 1.875rem;
+  --fontSizes--4xl: 2.25rem;
+  --fontSizes--5xl: 3rem;
+  --fontSizes--6xl: 4rem;
 }

@@ -15,4 +15,9 @@ describe('<Button/>', ()=> {
         expect(screen.getByRole('button'))
             .toHaveClass('button--primary')
     })
+    it('should render with secondary color class', () => {
+        render(<Button variant="secondary">Hello World</Button>);
+        expect(screen.getByRole('button'))
+            .toHaveClass('button--secondary')
+    })
 });

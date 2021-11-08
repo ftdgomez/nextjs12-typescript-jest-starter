@@ -1,12 +1,12 @@
 import * as React from 'react'
-import { Button } from '../components'
+import { Text, Button } from '../components/atoms'
 
 const Page = () => {
   return (
     <div>
       <h1>Hello World</h1>
-      <p>This is a simple example of a React page.</p>
-      <Button>Hello Click me!</Button>
+      <Text>This is a simple example of a React page.</Text>
+      <Button>Click me!</Button>
     </div>
   )
 }
